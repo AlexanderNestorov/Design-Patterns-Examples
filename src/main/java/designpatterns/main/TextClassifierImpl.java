@@ -1,14 +1,14 @@
-package designpatterns.main01;
+package designpatterns.main;
 
 import designpatterns.common.ClassifiedLine;
-import designpatterns.common.LineClassifierApi;
+import designpatterns.common.TextClassifierApi;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class LineClassifierImpl implements LineClassifierApi {
+public class TextClassifierImpl implements TextClassifierApi {
     @Override
-    public List<ClassifiedLine> classify(List<String> lines) {
+    public List<ClassifiedLine> classify(Iterable<String> lines) {
         // Prepare final result
         List<ClassifiedLine> classifiedLines = new ArrayList<>();
 

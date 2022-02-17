@@ -1,7 +1,8 @@
 package designpatterns.common;
 
-import java.util.Objects;
-
+/**
+ * Data class representing classified data per single text line.
+ */
 public class ClassifiedLine {
 
     public final int number;
@@ -48,14 +49,8 @@ public class ClassifiedLine {
         }
 
         if (text == null) {
-            if (other.text != null) {
-                return false;
-            }
-        } else if (!text.equals(other.text)) {
-            return false;
-        }
-
-        return true;
+            return other.text == null;
+        } else return text.equals(other.text);
     }
 
     @Override
