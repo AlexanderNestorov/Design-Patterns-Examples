@@ -1,4 +1,4 @@
-package designpatterns.common;
+package designpatterns;
 
 import java.util.List;
 /**

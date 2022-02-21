@@ -1,7 +1,7 @@
 package designpatterns.main;
 
-import designpatterns.common.ClassifiedLine;
-import designpatterns.common.TextClassifierApi;
+import designpatterns.ClassifiedLine;
+import designpatterns.TextClassifierApi;
 
 import java.util.ArrayList;
 import java.util.List;

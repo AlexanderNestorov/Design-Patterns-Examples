@@ -1,4 +1,4 @@
-package designpatterns.common;
+package designpatterns;
 
 /**
  * Data class representing classified data per single text line.

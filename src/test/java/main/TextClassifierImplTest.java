@@ -1,7 +1,7 @@
 package main;
 
-import designpatterns.common.ClassifiedLine;
-import designpatterns.common.TextClassifierApi;
+import designpatterns.ClassifiedLine;
+import designpatterns.TextClassifierApi;
 import designpatterns.main.TextClassifierImpl;
 import org.junit.Test;
 import support.TextClassifierTestSupport;

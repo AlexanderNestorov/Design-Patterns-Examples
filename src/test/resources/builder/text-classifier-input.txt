@@ -1,0 +1,4 @@
+# Input for 'Builder' DP
+
+tb.name = Testing Builder Pattern
+tb.year = 2022
