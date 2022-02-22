@@ -1,0 +1,4 @@
+# the input for classifier API
+
+420
+singleton-test
